@@ -1,0 +1,47 @@
+<!DOCtype html>
+<html>
+<head>
+	<meta name='viewport' content='with=device-width, initial-scale=1.0'>
+	<title>Ayman Bouaichi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+        <nav>
+            <a href="resumepageone.html"><img src='images/mu-removebg-preview.png' height="200px" width="200px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href=''>Home</a></li>
+                    <li><a href=''>About</a></li>
+                    <li><a href=''>Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+<div class="text-box">
+        <h1>Ayman Bouaichi</h1>
+        <p>Learn More About Me and My Experience!</p>
+        </div>
+	</section>
+<!--------JavaScript for Toggle Menu------->    
+<script>
+   
+    var navLinks = document.getElementById('navLinks');
+    
+    function showMenu(){
+        navLinks.style.right='0';
+    }
+    function hideMenu(){
+        navLinks.style.right='-200px';
+    }
+</script>
+    
+                <img src="images/IMG_4901.jpeg" width="360px" height="450px">
+
+    
+</body>
+</html>
